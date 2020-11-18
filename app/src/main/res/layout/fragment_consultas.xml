@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_cons_socio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/buttom_round"
+            android:text="Funcionário"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="433dp"></Button>
+
+        <Button
+            android:id="@+id/btn_cons_cli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttom_round"
+            android:text="Cliente"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="433dp"></Button>
+
+        <Button
+            android:id="@+id/btn_cons_contra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttom_round"
+            android:text="Contrato"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="433dp"></Button>
+    </LinearLayout>
+
+</FrameLayout>
